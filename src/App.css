@@ -1,0 +1,48 @@
+body {
+  font-family: 'Courier', monospace;
+  background-color: rgb(3, 2, 2);
+  color: green;
+  margin: 0;
+  padding: 20px;
+}
+
+#terminal {
+  border: 1px solid green;
+  padding: 10px;
+}
+
+pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+input {
+  width: 100%;
+  border: none;
+  background:black(231, 13, 13);
+  color: green;
+  font-family: 'Courier', monospace;
+  font-size: 16px;
+}
+
+.hidden {
+  opacity: 0;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 2;
+  }
+}
+
+.fade-in {
+  animation: fadeIn 1s ease-in-out;
+  
+}
+
+.retour {
+  text-decoration: none;
+}

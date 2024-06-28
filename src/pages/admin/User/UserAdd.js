@@ -3,7 +3,7 @@ import React from 'react';
 const UserAdd = () => {
     return (
         <div>
-            hyyyyyyyyyy
+            Ceci est la page de Compétences
         </div>
     );
 };

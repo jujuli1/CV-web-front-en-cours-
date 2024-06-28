@@ -13,7 +13,7 @@ const User = () => {
 
     return (
         <div className='user'>
-            User liste
+            Ceci est la page de presentation
             <button onClick={() => marcel(4)}>User 4</button>
         </div>
     );

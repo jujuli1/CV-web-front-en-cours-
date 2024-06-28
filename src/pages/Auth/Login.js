@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Retour from '../../components/public/Retour';
 import { useNavigate } from 'react-router-dom/dist';
+import { accountService } from '../../services/account.service';
 import axios from 'axios'
 
 const Login = () => {
@@ -30,6 +31,7 @@ const Login = () => {
         .then(res => {
             
             console.log(res)
+            accountService.saveToken(res.data.access_token)
             navigate('/admin')
         })
         .catch(error => console.log(error))

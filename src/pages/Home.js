@@ -46,16 +46,7 @@ const Home = () => {
         {output.map((line, index) => (
           <div key={index}>{line}</div>
         ))}
-        <div>
-          <span>$ </span>
-          <input
-            className="terminal-input"
-            type="text"
-            value={input}
-            onChange={(e) => setInput(e.target.value)}
-            onKeyPress={handleKeyPress}
-          />
-        </div>
+        
       </div>
     </div>
   );

@@ -16,7 +16,7 @@ const PublicRouter = () => {
         <div>
             <Routes>
 
-                <Route path='/' element={<Layout/>}>
+                
                 <Route index element={<Home />}/>
 
                 <Route path="/home" element={<Home/>}/>
@@ -29,7 +29,7 @@ const PublicRouter = () => {
         <Route path="*" element={<Error/>}/>
 
 
-                </Route>
+                
                 
 
             </Routes>

@@ -8,8 +8,7 @@ const Header = () => {
                 <nav>
                     <ul>
                         
-                        <li><Link to="/qui"> Qui est-ce</Link></li>
-                        <li><Link to="/competences">Mes compétences</Link></li>
+                        
                         <li><Link to="/auth/login">Connexion</Link></li>
                         
                     </ul>

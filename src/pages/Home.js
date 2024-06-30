@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Header from '../components/public/Header'
+import './Home.css'
 
 const Home = () => {
   const [input, setInput] = useState('');

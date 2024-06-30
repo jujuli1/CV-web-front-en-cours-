@@ -1,6 +1,6 @@
 body {
   font-family: 'Courier', monospace;
-  background-color: rgb(3, 2, 2);
+  background-color: antiquewhite;
   color: green;
   margin: 0;
   padding: 20px;
@@ -25,6 +25,7 @@ input {
   font-size: 16px;
 }
 
+
 .hidden {
   opacity: 0;
 }
@@ -45,4 +46,8 @@ input {
 
 .retour {
   text-decoration: none;
+}
+
+.header {
+  background-color: aqua;
 }

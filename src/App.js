@@ -6,6 +6,7 @@ import './App.css';
 import AdminRouter from './pages/admin/AdminRouter';
 import AuthRouter from './pages/Auth/AuthRouter';
 import AuthGuard from './Helpers/AuthGuard';
+import Header from './components/Admin/Header';
 
 
 
@@ -22,7 +23,7 @@ function App() {
       
       
       <BrowserRouter>
-      
+      <Header/>
         <Routes>
         <Route path="/*" element={<PublicRouter />} />
         <Route path='/admin/*' element={

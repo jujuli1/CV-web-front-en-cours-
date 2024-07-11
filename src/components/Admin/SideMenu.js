@@ -8,9 +8,9 @@ const SideMenu = () => {
             
             <ul>
 
-                <Retour/>
+                
                 <li>
-                    User
+                   
                     <ul>
                     <li><Link to='/admin/user/index'>Présentation</Link></li>
                     <li><Link to='/admin/user/parcour'>Mon parcour</Link></li>

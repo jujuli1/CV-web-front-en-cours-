@@ -23,7 +23,7 @@ function App() {
       
       
       <BrowserRouter>
-      <Header/>
+      <AdminRouter/>
         <Routes>
         <Route path="/*" element={<PublicRouter />} />
         <Route path='/admin/*' element={

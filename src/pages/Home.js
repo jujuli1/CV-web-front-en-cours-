@@ -32,7 +32,7 @@ const Home = () => {
     
     <div className={`qui-container ${isVisible ? 'fade-in' : ''}`}>
       <div className="terminal-header">
-      <Header/>
+      
 
        Page Home
 

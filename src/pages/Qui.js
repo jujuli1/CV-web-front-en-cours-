@@ -15,7 +15,7 @@ const Qui = () => {
   
     return (
         <div className='qui-container'>
-            <Retour/>
+            
             <h1 className={`qui-container ${isVisible ? 'fade-in-qui' : 'hidden'}`}>Madame, Monsieur ...</h1>
             <div className={`qui-container ${isVisible ? 'fade-in-qui2' : 'hidden'}`}>
             
